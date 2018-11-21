@@ -582,5 +582,10 @@ namespace SilkActualTimeService.DAL_GetData
             DataTable dt = meshelp.ExecuteDataTable(sqlstring, parameters);
             return dt;
         }
+        public DataTable GetArr(string a,string b)
+        {
+           DataTable dt=new DataTable();
+           return dt;
+        }
     }
 }
